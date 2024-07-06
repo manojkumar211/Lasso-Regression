@@ -122,35 +122,6 @@ Kurtosis:                       6.218   Cond. No.                     1.27e+06
 1  2.269759  radio_root
 
 ```
-# Linear regression Algorithm:-
-```
-- By applying Linear Regression algorithm on 2 independent features (which is consider as Multiple Linear Regression), we got train & test scores those are respectively 0.879 & 0.921.
-- In Linear regression algorithm, we took the Random State value as 9.
-- As of now, We can consider this model as a best model with +/- 5% train and test score. 
-
-linear train score : 0.8797156692297134
-****************************************
-linear test score : 0.9219805398478611
-****************************************
-linear Cross val : 0.8802087608205571
-
-```
-# Polynomial Regression Algorithm:-
-```
-- By applying Polynomial Regression algorithm on 2 independent features (which is consider as Multiple Polynomial Regression), we got train & test scores those are respectively 0.982 & 0.986.
-- In Polynomial regression algorithm, we took the Degree value as 3.
-
-Best degree train value : 3
-****************************************
-Best degree test value : 3
-
-- As of now, We can consider this model as a best model with +/- 5% train and test score.
-
-Polynomial Training Score : 0.9892136035502934
-****************************************
-Polynomial Test Score : 0.990922787724973
-
-```
 
 # Lasso Regression Algorithm:-
 ```
@@ -167,50 +138,6 @@ Lasso Test Score : 0.9186167470679957
 
 ```
 
-# Ridge Regression Algorithm:-
-```
-- We applying RidgeCV and find the alpha value.
-
-Ridge alpha value : 0.006828402737958372
-****************************************
-
-- By applying Ridge Regression algorithm on 2 independent features, we got train & test scores with respect to the 0.879 & 0.921.
-
-Ridge Train Score : 0.8797156692297134
-****************************************
-Ridge Test Score : 0.9219805398477006
-****************************************
-
-```
-
-# ElasticNet Regression Algorithm:-
-```
-- We applying RidgeCV and find the alpha value.
-
-ElasticNet alpha value : 2087804.706869493
-****************************************
-
-- By applying Ridge Regression algorithm on 2 independent features, we got train & test scores with respect to the 0.876 & 0.915.
-
-ElasticNet Train Score : 0.8761425226115825
-****************************************
-ElasticNet Test Score : 0.9154441355233094
-****************************************
-
-```
-
-# Final Conclusion:-
-
-```
-- After apply all the Regression Algorithms, we finally Concluded as a Polynomial Regression is the best algorithm for this dataset.
-- By applying Polynomial Regression, we got train and test scores with respectively 0.989 and 0.990
-
-Polynomial Training Score : 0.9892136035502934
-****************************************
-Polynomial Test Score : 0.990922787724973
-****************************************
-
-```
 
 # Model Saving:-
 ```
